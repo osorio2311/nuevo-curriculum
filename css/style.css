@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.main{
+    flex: 75%;
+    background-color: rgb(255, 242, 242);
+}
+.main h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main h3{
+    margin: 30px;
+    text-align: center;
+    color: rgb(153, 153, 239);
+    font-size: 40px;
+}
+
+.texto{
+    text-align: center;
+    font-size:25px;
+} 
+
+@media screen and (max-width: 200px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+
+.imagen{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.left{
+    flex: 25%;
+    background-color: rgb(172, 72, 47);
+    height: 1705px;
+}
+
+.h2{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+ 
+
+.calle{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.calle a:hover{
+    background-color: rgb(250, 10, 10);
+}
+
+
+ul{
+    list-style: none;
+}
+
